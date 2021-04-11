@@ -1,0 +1,23 @@
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #3e3e3e;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+
+  .desktop-icons {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: lato, 'sans-serif';
+  }
+}
