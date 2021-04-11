@@ -1,6 +1,9 @@
 .desktop-nav {
   display: none;
 }
+.ccn {
+  width: 5%;
+}
 
 @media (min-width: 768px) {
   .desktop-nav {
