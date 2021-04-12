@@ -8,57 +8,22 @@ header {
   font-size: 2rem;
   padding: 20px;
 }
+.hello-text {
+  font-family: lato;
+  color: #ec5242;
+  font-size: 1.5rem;
 
-@media (min-width: 768px) {
-  .ccn {
-    width: 15%;
-    padding-left: 20px;
-  }
-  
-  .main-header {
-    display: flex;
-  }
-
-  .header-list {
-    display: flex;
-    list-style: none;
-    padding-right: 100px;
-    align-items: center;
-  }
-  .ccn-logo {
-    display: flex;
-    align-items: center;
-  }
-  .ccn-text {
-    width: 100px;
-  }
-  .header-links {
-    padding: 0 10px;
-    text-decoration: none;
-    color: #3e3e3e;
-  }
-  .main-header {
-    border-bottom: 1px solid #3e3e3e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .desktop-nav {
-    display: flex;
-    background-color: #3e3e3e;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding-right: 150px;
-  }
-
-  .desktop-icons {
-    color: white;
-    padding: 0 10px;
-    text-decoration: none;
-    font-family: lato, sans-serif;
-  }
-  .bar {
-    display: none;
-  }
 }
+.ccn-text {
+  text-decoration: none;
+}
+.code-text {
+  font-family: cocogoose;
+  color: #ec5242;
+  text-align: left;
+}
+.text-wrapper {
+  margin: 20px auto;
+  width: 90%;
+}
+
