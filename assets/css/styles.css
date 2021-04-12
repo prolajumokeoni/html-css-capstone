@@ -79,29 +79,34 @@ header {
   font-weight: bold;
   width: 60%;
 }
+.nigeria-btn {
+  text-align: center;
+}
 .ccn-button {
   background-color: #ec5242;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid #ec5242;
   text-align: center;
-  margin: 20px 100px;
+  margin: 20px 0;
   color: #d3d3d3;
   font-family: lato;
 }
 
 .feature-speaker {
   margin-bottom: 30%;
+  font-family: lato;
 }
 
 .circle {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   position: relative;
 }
 
 .girl {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   left: 30px;
   position: absolute;
   margin-top: 30px;
@@ -110,23 +115,25 @@ header {
 .grp-wrapper {
   display: flex;
   justify-content: space-between;
-}
-.grp-img {
-  
-}
-.grp-text {
-  width: 70%;
-  padding-left: 10px;
+  margin-top: 10px;
 }
 
+.grp-text {
+  width: 60%;
+}
+
+.title {
+  margin-top: 20px;
+}
 .sub-text {
   font-style: italic;
   color: #ec5242;
-  font-weight: .3rem;
+  font-size: .7rem;
+  margin-bottom: 5px;
+  padding-right: 5px;
 }
 .last-text {
-  padding: 20px 0;
-  font-size: .7rem;
+  font-size: .6rem;
 }
 .box {
   text-align: center;
