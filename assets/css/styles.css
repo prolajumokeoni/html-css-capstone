@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
 }
+body{
+  background-color: #f0eeee;
+}
 .desktop-nav {
   display: none;
 }
@@ -51,7 +54,7 @@ header {
 }
 
 .program-title {
-  padding: 10px;
+  padding: 15px 0 0 0;
 }
 .program {
   background-image: url('../images/blackimg.png');
@@ -94,7 +97,6 @@ header {
 }
 
 .feature-speaker {
-  margin-bottom: 30%;
   font-family: lato;
 }
 
@@ -133,7 +135,7 @@ header {
   padding-right: 5px;
 }
 .last-text {
-  font-size: .6rem;
+  font-size: .7rem;
 }
 .box {
   text-align: center;
