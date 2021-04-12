@@ -56,7 +56,6 @@ header {
 .program {
   background-image: url('../images/blackimg.png');
   height: auto;
-  margin-bottom: 50%;
 }
 .program-flex {
   background-color: #272727;
@@ -88,4 +87,51 @@ header {
   margin: 20px 100px;
   color: #d3d3d3;
   font-family: lato;
+}
+
+.feature-speaker {
+  margin-bottom: 30%;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.girl {
+  width: 80px;
+  height: 80px;
+  left: 30px;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.grp-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.grp-img {
+  
+}
+.grp-text {
+  width: 70%;
+  padding-left: 10px;
+}
+
+.sub-text {
+  font-style: italic;
+  color: #ec5242;
+  font-weight: .3rem;
+}
+.last-text {
+  padding: 20px 0;
+  font-size: .7rem;
+}
+.box {
+  text-align: center;
+}
+.more-btn {
+  padding: 10px 140px;
+
 }
