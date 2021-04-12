@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 .desktop-nav {
   display: none;
 }
@@ -7,6 +10,7 @@ header {
 .bar {
   font-size: 2rem;
   padding: 0 30px;
+  color: #272a31;
 }
 .hello-text {
   font-family: lato;
@@ -44,4 +48,44 @@ header {
   color: #272a31;
   font-family: lato;
   font-size: .8rem;
+}
+
+.program-title {
+  padding: 10px;
+}
+.program {
+  background-image: url('../images/blackimg.png');
+  height: auto;
+  margin-bottom: 50%;
+}
+.program-flex {
+  background-color: #272727;
+  opacity: .7;
+  width: 95%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.mid-text {
+  color: #ec5242;
+  font-size: .8rem;
+  font-family: cocogoose;
+}
+.text-flex {
+  font-size: .8rem;
+  color: #d3d3d3;
+  font-family: lato;
+  font-weight: bold;
+  width: 60%;
+}
+.ccn-button {
+  background-color: #ec5242;
+  padding: 20px;
+  border: 1px solid #ec5242;
+  text-align: center;
+  margin: 20px 100px;
+  color: #d3d3d3;
+  font-family: lato;
 }
