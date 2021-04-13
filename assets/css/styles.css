@@ -159,6 +159,9 @@ header {
   width: 50px;
   fill: #fff;
 }
+footer {
+  display: none;
+}
 @media (min-width: 768px) {
   .ccn {
     width: 15%;
@@ -235,15 +238,94 @@ header {
   }
   .display-prog {
     display: flex;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
   .grp-wrapper {
-    width: 50%;
+    width: 45%;
+    position: relative;
   }
 
-  .main-wrapper {
-    display: flex;
-    width: 60%;
-  }
+  .grp-wrapper:nth-of-type(3),
+  .grp-wrapper:nth-of-type(4),
+  .grp-wrapper:nth-of-type(5),
+  .grp-wrapper:nth-of-type(6)  {
+  display: flex;
+}
+.main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.box {
+  display: none;
+}
+.ccn-button {
+  background-color: unset;
+  border: unset;
+  text-decoration: underline;
+}
+footer {
+  display: block;
+}
+.footer-main {
+  background-color: #272727;
+  display: block;
+  height: 300px;
+}
+.footer-header {
+  padding-top: 50px;
+}
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.mozilla {
+  font-family: lato;
+  font-weight: bolder;
+}
+.google {
+font-weight: lighter;
+font-family: lato;
+}
+.naver {
+  font-weight: cocogoose;
+  font-weight: bolder;
+}
+.airnb {
+  font-size: 20px;
+  padding: 0 5px;
+}
+.footer-bottom {
+  background-color: white;
+  height: 70px;
+}
+.last-footer {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: .5rem;
+  padding-left: 30px;
+}
+.ccn-logo1 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0 ;
+}
+.footer-ccn {
+  width: 60px;
+  height: 60px;
+}
 }
