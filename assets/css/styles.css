@@ -26,8 +26,9 @@ header {
 }
 .code-text {
   font-family: cocogoose;
-  color: #ec5242;
-  text-align: left;
+  background: -webkit-linear-gradient(#ec5242, #272a31);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .text-wrapper {
   margin: 20px auto;
