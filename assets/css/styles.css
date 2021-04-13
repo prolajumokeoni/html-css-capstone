@@ -162,6 +162,7 @@ header {
 footer {
   display: none;
 }
+
 @media (min-width: 768px) {
   .ccn {
     width: 15%;
