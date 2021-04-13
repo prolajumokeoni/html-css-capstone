@@ -159,3 +159,91 @@ header {
   width: 50px;
   fill: #fff;
 }
+@media (min-width: 768px) {
+  .ccn {
+    width: 15%;
+    padding-left: 20px;
+  }
+  
+  .main-header {
+    display: flex;
+  }
+
+  .header-list {
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+    align-items: center;
+  }
+  .ccn-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .ccn-text {
+    width: 100px;
+    padding-left: 10px;
+  }
+  .header-links {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #3e3e3e;
+  }
+  .main-header {
+    border-bottom: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desktop-nav {
+    display: flex;
+    background-color: #3e3e3e;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+
+  .desktop-icons {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: lato, sans-serif;
+  }
+  .bar {
+    display: none;
+  }
+  .code-text {
+    width: 50%;
+  }
+  .article-text  {
+    width: 40%;
+  }
+  .text-wrapper {
+    margin-bottom: 50px;
+  }
+  .program-flex {
+    width: 30%;
+    display: inline;
+    border: #d3d3d3;
+    text-align: center;
+    margin: 2px;
+    padding: 0 10px;
+  }
+  .text-flex {
+    font-size: .8rem;
+    line-height: .2;
+    text-align: justify;
+  }
+  .display-prog {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .grp-wrapper {
+    width: 50%;
+  }
+
+  .main-wrapper {
+    display: flex;
+    width: 60%;
+  }
+}
