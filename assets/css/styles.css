@@ -273,10 +273,10 @@ footer {
 .footer-main {
   background-color: #272727;
   display: block;
-  height: 300px;
+  height: 200px;
 }
 .footer-header {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .footer-list {
   display: flex;
@@ -307,7 +307,7 @@ font-family: lato;
   height: 70px;
 }
 .last-footer {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -316,8 +316,9 @@ font-family: lato;
 
 .footer-text {
   width: 50%;
-  font-size: .5rem;
+  font-size: .7rem;
   padding-left: 30px;
+  font-family: lato;
 }
 .ccn-logo1 {
   display: flex;
