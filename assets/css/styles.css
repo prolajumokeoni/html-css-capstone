@@ -153,3 +153,9 @@ header {
   padding: 10px 140px;
 
 }
+
+.img-icon {
+  height: 50px;
+  width: 50px;
+  fill: #fff;
+}
