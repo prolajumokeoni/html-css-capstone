@@ -126,6 +126,13 @@ header {
   width: 60%;
 }
 
+.grp-wrapper:nth-of-type(3),
+.grp-wrapper:nth-of-type(4),
+.grp-wrapper:nth-of-type(5),
+.grp-wrapper:nth-of-type(6)  {
+  display: none;
+}
+
 .title {
   margin-top: 20px;
 }
