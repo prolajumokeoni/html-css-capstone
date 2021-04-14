@@ -1,36 +1,44 @@
 a {
   text-decoration: none;
 }
-body{
+
+body {
   background-color: #f0eeee;
 }
+
 .desktop-nav {
   display: none;
 }
+
 header {
   display: none;
 }
+
 .bar {
   font-size: 2rem;
   padding: 0 30px;
   color: #272a31;
 }
+
 .hello-text {
   font-family: lato;
   color: #ec5242;
   font-size: 1.5rem;
-	text-align: center;
+  text-align: center;
 }
+
 .ccn-text {
   text-decoration: none;
-	text-align: center;
+  text-align: center;
 }
+
 .code-text {
   font-family: cocogoose;
-	color: #ec5242;
-	font-size: 1.1rem;
-	text-align: center;
+  color: #ec5242;
+  font-size: 1.1rem;
+  text-align: center;
 }
+
 .text-wrapper {
   margin: 20px auto;
   width: 80%;
@@ -39,215 +47,249 @@ header {
 .article-text {
   color: #272a31;
   font-family: lato;
-  font-size: .8rem;
-	line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.5;
   padding: 10px;
   border: 3px solid #d3d3d3;
   background-color: #f0eeee;
-	text-align: center;
+  text-align: center;
 }
+
 .location-text {
   font-family: cocogoose;
   color: #272a31;
-  font-size: .5rem;
-	text-align: center;
+  font-size: 0.5rem;
+  text-align: center;
 }
+
 .bottom-text {
   color: #272a31;
   font-family: lato;
-  font-size: .8rem;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
 }
+
 .bottom-text2 {
   color: #272a31;
   font-family: lato;
-  font-size: .8rem;
-	font-weight: bold;
-	text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 .underline-small {
-	display:  block;
-	position: relative;
+  display: block;
+  position: relative;
 }
+
 .underline-small::after {
-	content: '';
-	height: 2px;
-	width: 10%;
-	background-color: #ec5242;
-	position: absolute;
-	left: 45%;
-	bottom: -5px;
+  content: '';
+  height: 2px;
+  width: 10%;
+  background-color: #ec5242;
+  position: absolute;
+  left: 45%;
+  bottom: -5px;
 }
+
 .about-logo {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .ccn-about {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	width: 30%;
-	margin: 0 auto;
-	margin-top: 20px;
-	padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 50px;
 }
 
 .logo-img {
-	width: 60px;
-	height: 60px;
+  width: 60px;
+  height: 60px;
 }
+
 .ccn-width {
-	width: 150px;
+  width: 150px;
 }
 
 .small-date {
-	font-size: .3rem;
-	margin-bottom: 20px;
-	border-top: 1px solid #272a31;
-	border-bottom: 1px solid #272a31;
-	position: absolute;
-	width: 120px;
-	left: 10px;
-	top: 52px;
+  font-size: 0.3rem;
+  margin-bottom: 20px;
+  border-top: 1px solid #272a31;
+  border-bottom: 1px solid #272a31;
+  position: absolute;
+  width: 120px;
+  left: 10px;
+  top: 52px;
 }
+
 .design-logo {
-	display: inline-block;
-	position: relative;
-	text-align: right;
+  display: inline-block;
+  position: relative;
+  text-align: right;
 }
 
 .about-graduates {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
+
 .graduate-text {
-	padding: 10px 5px;
-	text-align: center;
-	font-size: .7rem;
-	color: #272a31;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #272a31;
 }
-/* 
+
+/*
 .laptop {
 	width: 100%;
 	margin: 10px auto;
 } */
 .background-laptop {
-	height: 150px;
-	width: 100%;
-	background-size: 100% 100%;
-	margin: 10px 0;	
-	color: white;
-	text-align: center;
-	padding-top: 50px;
-	font-family: lato;
+  height: 150px;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-family: lato;
 }
+
 .orange-img {
-	background-image: linear-gradient(to right bottom,
-										rgba(194, 9, 9, 0.575),rgba(184, 39, 39, 0.507)),
-										url("../images/orange-girl.png");								
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(194, 9, 9, 0.575),
+      rgba(184, 39, 39, 0.507)
+    ),
+    url("../images/orange-girl.png");
 }
+
 .blue-img {
-	background-image: linear-gradient(to right bottom,
-									rgba(194, 9, 9, 0.575),rgba(189, 8, 8, 0.932)),
-										url("../images/bluegirl.png");	
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(194, 9, 9, 0.575),
+      rgba(189, 8, 8, 0.932)
+    ),
+    url("../images/bluegirl.png");
 }
 
 .footer-main {
   background-color: #272727;
   display: block;
   height: 200px;
-	width: 100%;
+  width: 100%;
 }
+
 .footer-header {
   padding-top: 20px;
 }
+
 .footer-list {
   display: flex;
   list-style: none;
   justify-content: space-around;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 40px;
-	width: 85%;
+  width: 85%;
 }
+
 .flex-f {
-	padding: 10px;
+  padding: 10px;
 }
+
 .mozilla {
   font-family: lato;
   font-weight: bolder;
 }
+
 .google {
-font-weight: lighter;
-font-family: lato;
+  font-weight: lighter;
+  font-family: lato;
 }
+
 .naver {
   font-weight: cocogoose;
   font-weight: bolder;
 }
+
 .airnb {
   font-size: 20px;
   padding: 0 5px;
 }
-
 
 .last-footer {
   width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-	text-align: center;
+  text-align: center;
 }
 
 .footer-text {
   width: 50%;
-  font-size: .7rem;
+  font-size: 0.7rem;
   padding-left: 30px;
   font-family: lato;
 }
+
 .ccn-logo1 {
   display: flex;
   align-items: center;
-  padding: 50px 0 ;
+  padding: 50px 0;
 }
+
 .footer-ccn {
   width: 60px;
   height: 60px;
 }
+
 .last-about {
-	display: none;
+  display: none;
 }
+
 .last-fabout {
-	font-size: .6rem;
-	margin-bottom: 10px;
-	text-align: left;
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  text-align: left;
 }
+
 .bottom-display {
-	display: none;
+  display: none;
 }
+
 @media (min-width: 768px) {
   .ccn1 {
     width: 15%;
     padding-left: 20px;
   }
-	.head-ccn {
-		display: flex;
-		align-items: center;
-		padding: 5px 10px;
-	}
+
+  .head-ccn {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+  }
 
   .head-logo {
-		width: 60px;
-		height: 60px;
-	}
-	.text-logo  {
-		padding-left: 5px;
-	}
+    width: 60px;
+    height: 60px;
+  }
+
+  .text-logo {
+    padding-left: 5px;
+  }
+
   .main-header {
     display: flex;
   }
@@ -258,26 +300,31 @@ font-family: lato;
     padding-right: 100px;
     align-items: center;
   }
+
   .ccn-logo1 {
     display: flex;
     align-items: center;
     padding-left: 50px;
   }
+
   .ccn-text1 {
     width: 100px;
     padding-left: 10px;
   }
+
   .header-links {
     padding: 0 10px;
     text-decoration: none;
     color: #3e3e3e;
   }
+
   .main-header {
     border-bottom: 1px solid #3e3e3e;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .desktop-nav {
     display: flex;
     background-color: #3e3e3e;
@@ -291,74 +338,89 @@ font-family: lato;
     text-decoration: none;
     font-family: lato, sans-serif;
   }
+
   .bar {
     display: none;
   }
+
   .code-text {
-		font-size: 3rem;
-	}
-	.article-text {
-		width: 70%;
-		margin: 0 auto;
-		font-size: 1rem;
-		background-color: #f8f4f4;
-	}
-	.location-text {
-		padding-top: 30px;
-		font-size: 1rem;
-	}
-	.bottom-display {
-		display: block;
-		display: inline;
-	}
-	.location-text {
-		width: 80%;
-		margin: 0 auto;
-		font-size: .7rem;
+    font-size: 3rem;
   }
-	.bottom-text {
-		display: none;
-	}
-	
-	.ccn-about{
-		width: 50%;
-	}
-	.graduate-program {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 70%;
-		margin: 0 auto;
-	}
-	.background-laptop {
-	margin: 10px 10px;
-	}
-	.blue-img,
-	.orange-img {
-		padding-right: 10px;
-		width: 100%;
-	}
-	.last-about {
-		display: block;
-		text-align: left;
-	}
-	.naija {
-		color: white;
-		padding-left: 5px;
-		width: 60px;
-		text-align: left;
-		font-size: .8rem;
-	}
-	.background-footer {
-		background-color: #272727;
-		color: #d3d3d3;
-	}
-	.last-footer {
-		width: 50%;
-		margin: 0 auto;
-		align-items: center;
-	}
-	.footer-main {
-		display: none;
-	}
+
+  .article-text {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: #f8f4f4;
+  }
+
+  .location-text {
+    padding-top: 30px;
+    font-size: 1rem;
+  }
+
+  .bottom-display {
+    display: block;
+    display: inline;
+  }
+
+  .location-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+  }
+
+  .bottom-text {
+    display: none;
+  }
+
+  .ccn-about {
+    width: 50%;
+  }
+
+  .graduate-program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .background-laptop {
+    margin: 10px 10px;
+  }
+
+  .blue-img,
+  .orange-img {
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .last-about {
+    display: block;
+    text-align: left;
+  }
+
+  .naija {
+    color: white;
+    padding-left: 5px;
+    width: 60px;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .background-footer {
+    background-color: #272727;
+    color: #d3d3d3;
+  }
+
+  .last-footer {
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .footer-main {
+    display: none;
+  }
 }

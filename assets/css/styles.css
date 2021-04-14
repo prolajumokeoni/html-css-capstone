@@ -1,91 +1,106 @@
 a {
   text-decoration: none;
 }
-body{
+
+body {
   background-color: #f0eeee;
 }
+
 .desktop-nav {
   display: none;
 }
+
 header {
   display: none;
 }
+
 .bar {
   font-size: 2rem;
   padding: 0 30px;
   color: #272a31;
 }
+
 .hello-text {
   font-family: lato;
   color: #ec5242;
   font-size: 1.5rem;
-
 }
+
 .ccn-text {
   text-decoration: none;
 }
+
 .code-text {
   font-family: cocogoose;
   background: -webkit-linear-gradient(#ec5242, #272a31);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .text-wrapper {
   margin: 20px auto;
   width: 90%;
 }
+
 .article-text {
   color: #272a31;
   font-family: lato;
-  font-size: .7rem;
+  font-size: 0.7rem;
   line-height: 2;
   padding: 10px;
   border: 3px solid white;
   background-color: #d3d3d3;
 }
+
 .location-text {
   font-family: cocogoose;
   color: #272a31;
   font-size: 1.5rem;
 }
+
 .bottom-text {
   color: #272a31;
   font-family: lato;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .program-title {
   padding: 15px 0 0 0;
 }
+
 .program {
   background-image: url('../images/blackimg.png');
   height: auto;
 }
+
 .program-flex {
   background-color: #272727;
-  opacity: .7;
+  opacity: 0.7;
   width: 95%;
   margin: 5px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
+
 .mid-text {
   color: #ec5242;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-family: cocogoose;
 }
+
 .text-flex {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #d3d3d3;
   font-family: lato;
   font-weight: bold;
   width: 60%;
 }
+
 .nigeria-btn {
   text-align: center;
 }
+
 .ccn-button {
   background-color: #ec5242;
   margin: 0 auto;
@@ -129,29 +144,32 @@ header {
 .grp-wrapper:nth-of-type(3),
 .grp-wrapper:nth-of-type(4),
 .grp-wrapper:nth-of-type(5),
-.grp-wrapper:nth-of-type(6)  {
+.grp-wrapper:nth-of-type(6) {
   display: none;
 }
 
 .title {
   margin-top: 20px;
 }
+
 .sub-text {
   font-style: italic;
   color: #ec5242;
-  font-size: .7rem;
+  font-size: 0.7rem;
   margin-bottom: 5px;
   padding-right: 5px;
 }
+
 .last-text {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
+
 .box {
   text-align: center;
 }
+
 .more-btn {
   padding: 10px 140px;
-
 }
 
 .img-icon {
@@ -159,6 +177,7 @@ header {
   width: 50px;
   fill: #fff;
 }
+
 footer {
   display: none;
 }
@@ -168,7 +187,7 @@ footer {
     width: 15%;
     padding-left: 20px;
   }
-  
+
   .main-header {
     display: flex;
   }
@@ -179,26 +198,31 @@ footer {
     padding-right: 100px;
     align-items: center;
   }
+
   .ccn-logo {
     display: flex;
     align-items: center;
     padding-left: 50px;
   }
+
   .ccn-text {
     width: 100px;
     padding-left: 10px;
   }
+
   .header-links {
     padding: 0 10px;
     text-decoration: none;
     color: #3e3e3e;
   }
+
   .main-header {
     border-bottom: 1px solid #3e3e3e;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .desktop-nav {
     display: flex;
     background-color: #3e3e3e;
@@ -212,18 +236,23 @@ footer {
     text-decoration: none;
     font-family: lato, sans-serif;
   }
+
   .bar {
     display: none;
   }
+
   .code-text {
     width: 50%;
   }
-  .article-text  {
+
+  .article-text {
     width: 40%;
   }
+
   .text-wrapper {
     margin-bottom: 50px;
   }
+
   .program-flex {
     width: 30%;
     display: inline;
@@ -232,16 +261,19 @@ footer {
     margin: 2px;
     padding: 0 10px;
   }
+
   .text-flex {
-    font-size: .8rem;
-    line-height: .2;
+    font-size: 0.8rem;
+    line-height: 0.2;
     text-align: justify;
   }
+
   .display-prog {
     display: flex;
     width: 60%;
     margin: 0 auto;
   }
+
   .grp-wrapper {
     width: 45%;
     position: relative;
@@ -250,84 +282,99 @@ footer {
   .grp-wrapper:nth-of-type(3),
   .grp-wrapper:nth-of-type(4),
   .grp-wrapper:nth-of-type(5),
-  .grp-wrapper:nth-of-type(6)  {
-  display: flex;
-}
-.main-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 65%;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-.box {
-  display: none;
-}
-.ccn-button {
-  background-color: unset;
-  border: unset;
-  text-decoration: underline;
-}
-footer {
-  display: block;
-}
-.footer-main {
-  background-color: #272727;
-  display: block;
-  height: 200px;
-}
-.footer-header {
-  padding-top: 20px;
-}
-.footer-list {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  width: 40%;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-.mozilla {
-  font-family: lato;
-  font-weight: bolder;
-}
-.google {
-font-weight: lighter;
-font-family: lato;
-}
-.naver {
-  font-weight: cocogoose;
-  font-weight: bolder;
-}
-.airnb {
-  font-size: 20px;
-  padding: 0 5px;
-}
-.footer-bottom {
-  background-color: white;
-  height: 70px;
-}
-.last-footer {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+  .grp-wrapper:nth-of-type(6) {
+    display: flex;
+  }
 
-.footer-text {
-  width: 50%;
-  font-size: .7rem;
-  padding-left: 30px;
-  font-family: lato;
-}
-.ccn-logo1 {
-  display: flex;
-  align-items: center;
-  padding: 50px 0 ;
-}
-.footer-ccn {
-  width: 60px;
-  height: 60px;
-}
+  .main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .ccn-button {
+    background-color: unset;
+    border: unset;
+    text-decoration: underline;
+  }
+
+  footer {
+    display: block;
+  }
+
+  .footer-main {
+    background-color: #272727;
+    display: block;
+    height: 200px;
+  }
+
+  .footer-header {
+    padding-top: 20px;
+  }
+
+  .footer-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .mozilla {
+    font-family: lato;
+    font-weight: bolder;
+  }
+
+  .google {
+    font-weight: lighter;
+    font-family: lato;
+  }
+
+  .naver {
+    font-weight: cocogoose;
+    font-weight: bolder;
+  }
+
+  .airnb {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+  .footer-bottom {
+    background-color: white;
+    height: 70px;
+  }
+
+  .last-footer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer-text {
+    width: 50%;
+    font-size: 0.7rem;
+    padding-left: 30px;
+    font-family: lato;
+  }
+
+  .ccn-logo1 {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .footer-ccn {
+    width: 60px;
+    height: 60px;
+  }
 }
