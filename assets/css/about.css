@@ -88,7 +88,7 @@ header {
 
 .ccn-about {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	padding: 10 20px;
 	border: 1px solid #272a31;
 	margin-top: 30px;
@@ -108,7 +108,49 @@ header {
 	margin-bottom: 20px;
 	border-top: 1px solid #272a31;
 	border-bottom: 1px solid #272a31;
+	position: absolute;
+	width: 120px;
+	left: 10px;
+	top: 52px;
 }
 .design-logo {
 	display: inline-block;
+	position: relative;
+	width: 100px;
+}
+
+.about-graduates {
+	width: 85%;
+	margin: 0 auto;
+}
+.graduate-text {
+	padding: 10px 5px;
+	text-align: center;
+	font-size: .7rem;
+	color: #272a31;
+}
+/* 
+.laptop {
+	width: 100%;
+	margin: 10px auto;
+} */
+.background-laptop {
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	margin: 10px 0;	
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-family: lato;
+}
+.orange-img {
+	background-image: linear-gradient(to right bottom,
+										rgba(194, 9, 9, 0.575),rgba(184, 39, 39, 0.507)),
+										url("../images/orange-girl.png");								
+}
+.blue-img {
+	background-image: linear-gradient(to right bottom,
+									rgba(194, 9, 9, 0.575),rgba(189, 8, 8, 0.932)),
+										url("../images/bluegirl.png");	
 }
