@@ -88,16 +88,16 @@ header {
 
 .ccn-about {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	padding: 10 20px;
 	border: 1px solid #272a31;
 	margin-top: 30px;
-	padding-top: 15px 30px;
+	padding: 30px 25px;
 }
 
 .logo-img {
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 }
 .ccn-width {
 	width: 150px;
@@ -153,4 +153,75 @@ header {
 	background-image: linear-gradient(to right bottom,
 									rgba(194, 9, 9, 0.575),rgba(189, 8, 8, 0.932)),
 										url("../images/bluegirl.png");	
+}
+
+.footer-main {
+  background-color: #272727;
+  display: block;
+  height: 200px;
+}
+.footer-header {
+  padding-top: 20px;
+}
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+	flex-wrap: wrap;
+  margin-top: 40px;
+	width: 85%;
+}
+.flex-f {
+	padding: 10px;
+}
+.mozilla {
+  font-family: lato;
+  font-weight: bolder;
+}
+.google {
+font-weight: lighter;
+font-family: lato;
+}
+.naver {
+  font-weight: cocogoose;
+  font-weight: bolder;
+}
+.airnb {
+  font-size: 20px;
+  padding: 0 5px;
+}
+.footer-bottom {
+  background-color: white;
+  height: 70px;
+}
+
+.last-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+	text-align: center;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: .7rem;
+  padding-left: 30px;
+  font-family: lato;
+}
+.ccn-logo1 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0 ;
+}
+.footer-ccn {
+  width: 60px;
+  height: 60px;
+}
+.last-about {
+	display: none;
+}
+.last-fabout {
+	font-size: .9rem;
+	margin-bottom: 10px;
 }
