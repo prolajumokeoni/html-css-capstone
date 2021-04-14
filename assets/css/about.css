@@ -23,6 +23,7 @@ header {
 }
 .ccn-text {
   text-decoration: none;
+	text-align: center;
 }
 .code-text {
   font-family: cocogoose;
@@ -38,12 +39,12 @@ header {
 .article-text {
   color: #272a31;
   font-family: lato;
-  font-size: .7rem;
+  font-size: .8rem;
 	line-height: 1.5;
   padding: 10px;
   border: 3px solid #d3d3d3;
   background-color: #f0eeee;
-	text-align: justify;
+	text-align: center;
 }
 .location-text {
   font-family: cocogoose;
@@ -89,10 +90,13 @@ header {
 .ccn-about {
 	display: flex;
 	align-items: center;
-	padding: 10 20px;
+	justify-content: center;
 	border: 1px solid #272a31;
-	margin-top: 30px;
-	padding: 30px 25px;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px 0;
 }
 
 .logo-img {
@@ -116,11 +120,11 @@ header {
 .design-logo {
 	display: inline-block;
 	position: relative;
-	width: 100px;
+	text-align: right;
 }
 
 .about-graduates {
-	width: 85%;
+	width: 80%;
 	margin: 0 auto;
 }
 .graduate-text {
@@ -159,6 +163,7 @@ header {
   background-color: #272727;
   display: block;
   height: 200px;
+	width: 100%;
 }
 .footer-header {
   padding-top: 20px;
@@ -190,10 +195,7 @@ font-family: lato;
   font-size: 20px;
   padding: 0 5px;
 }
-.footer-bottom {
-  background-color: white;
-  height: 70px;
-}
+
 
 .last-footer {
   width: 80%;
@@ -222,6 +224,122 @@ font-family: lato;
 	display: none;
 }
 .last-fabout {
-	font-size: .9rem;
+	font-size: .6rem;
 	margin-bottom: 10px;
+	text-align: left;
+}
+.bottom-display {
+	display: none;
+}
+@media (min-width: 768px) {
+  .ccn1 {
+    width: 15%;
+    padding-left: 20px;
+  }
+	.head-ccn {
+		display: flex;
+		align-items: center;
+		padding: 5px 10px;
+	}
+
+  .head-logo {
+		width: 60px;
+		height: 60px;
+	}
+	.text-logo  {
+		padding-left: 5px;
+	}
+  .main-header {
+    display: flex;
+  }
+
+  .header-list {
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+    align-items: center;
+  }
+  .ccn-logo1 {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .ccn-text1 {
+    width: 100px;
+    padding-left: 10px;
+  }
+  .header-links {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #3e3e3e;
+  }
+  .main-header {
+    border-bottom: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desktop-nav {
+    display: flex;
+    background-color: #3e3e3e;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+
+  .desktop-icons {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: lato, sans-serif;
+  }
+  .bar {
+    display: none;
+  }
+  .code-text {
+		font-size: 3rem;
+	}
+	.article-text {
+		width: 70%;
+		margin: 0 auto;
+		font-size: 1rem;
+		background-color: #f8f4f4;
+	}
+	.location-text {
+		padding-top: 30px;
+		font-size: 1rem;
+	}
+	.bottom-display {
+		display: block;
+		display: inline;
+	}
+	.location-text {
+		width: 80%;
+		margin: 0 auto;
+		font-size: .7rem;
+  }
+	.bottom-text {
+		display: none;
+	}
+	
+	.ccn-about{
+
+	}
+	.graduate-program {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.background-laptop {
+	margin: 10px 10px;
+	}
+	.blue-img,
+	.orange-img {
+		padding-right: 10px;
+		width: 50%;
+	}
+	.last-about {
+		display: block;
+	}
 }
