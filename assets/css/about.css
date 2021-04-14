@@ -21,7 +21,7 @@ header {
 }
 
 .hello-text {
-  font-family: lato 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: lato, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ec5242;
   font-size: 1.5rem;
   text-align: center;
@@ -33,7 +33,7 @@ header {
 }
 
 .code-text {
-  font-family: cocogoose sans-serif;
+  font-family: cocogoose, sans-serif;
   color: #ec5242;
   font-size: 1.1rem;
   text-align: center;
@@ -56,7 +56,7 @@ header {
 }
 
 .location-text {
-  font-family: cocogoose sans-serif;
+  font-family: cocogoose, sans-serif;
   color: #272a31;
   font-size: 0.5rem;
   text-align: center;
@@ -64,7 +64,7 @@ header {
 
 .bottom-text {
   color: #272a31;
-  font-family: lato;
+  font-family: lato, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
@@ -73,7 +73,7 @@ header {
 
 .bottom-text2 {
   color: #272a31;
-  font-family: lato;
+  font-family: lato, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
@@ -162,7 +162,7 @@ header {
   color: white;
   text-align: center;
   padding-top: 50px;
-  font-family: lato;
+  font-family: lato, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .orange-img {
@@ -216,11 +216,11 @@ header {
 
 .google {
   font-weight: lighter;
-  font-family: lato;
+  font-family: lato. 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .naver {
-  font-weight: cocogoose;
+  font-style: cocogoose;
   font-weight: bolder;
 }
 
@@ -241,7 +241,7 @@ header {
   width: 50%;
   font-size: 0.7rem;
   padding-left: 30px;
-  font-family: lato;
+  font-family: lato. 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ccn-logo1 {
@@ -288,10 +288,6 @@ header {
 
   .text-logo {
     padding-left: 5px;
-  }
-
-  .main-header {
-    display: flex;
   }
 
   .header-list {
@@ -354,10 +350,6 @@ header {
     background-color: #f8f4f4;
   }
 
-  .location-text {
-    padding-top: 30px;
-    font-size: 1rem;
-  }
 
   .bottom-display {
     display: block;
@@ -370,6 +362,8 @@ header {
     font-size: 0.7rem;
   }
 
+  
+ 
   .bottom-text {
     display: none;
   }
