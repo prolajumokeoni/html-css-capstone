@@ -91,7 +91,6 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid #272a31;
 	text-align: center;
 	width: 40%;
 	margin: 0 auto;
@@ -337,7 +336,7 @@ font-family: lato;
 	.blue-img,
 	.orange-img {
 		padding-right: 10px;
-		width: 50%;
+		width: 100%;
 	}
 	.last-about {
 		display: block;
