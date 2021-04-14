@@ -93,7 +93,7 @@ header {
 	justify-content: center;
 	border: 1px solid #272a31;
 	text-align: center;
-	width: 60%;
+	width: 40%;
 	margin: 0 auto;
 	margin-top: 20px;
 	padding: 20px 0;
@@ -322,7 +322,7 @@ font-family: lato;
 	}
 	
 	.ccn-about{
-
+		width: 50%;
 	}
 	.graduate-program {
 		display: flex;
@@ -341,5 +341,25 @@ font-family: lato;
 	}
 	.last-about {
 		display: block;
+		text-align: left;
+	}
+	.naija {
+		color: white;
+		padding-left: 5px;
+		width: 60px;
+		text-align: left;
+		font-size: .8rem;
+	}
+	.background-footer {
+		background-color: #272727;
+		color: #d3d3d3;
+	}
+	.last-footer {
+		width: 50%;
+		margin: 0 auto;
+		align-items: center;
+	}
+	.footer-main {
+		display: none;
 	}
 }
