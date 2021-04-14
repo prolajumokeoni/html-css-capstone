@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+body{
+  background-color: #f0eeee;
+}
+.desktop-nav {
+  display: none;
+}
+header {
+  display: none;
+}
+.bar {
+  font-size: 2rem;
+  padding: 0 30px;
+  color: #272a31;
+}
+.hello-text {
+  font-family: lato;
+  color: #ec5242;
+  font-size: 1.5rem;
+
+}
+.ccn-text {
+  text-decoration: none;
+}
+.code-text {
+  font-family: cocogoose;
+  background: -webkit-linear-gradient(#ec5242, #272a31);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-wrapper {
+  margin: 20px auto;
+  width: 90%;
+}
