@@ -21,7 +21,6 @@ header {
 }
 
 .hello-text {
-  font-family: lato;
   color: #ec5242;
   font-size: 1.5rem;
   text-align: center;
@@ -33,7 +32,6 @@ header {
 }
 
 .code-text {
-  font-family: cocogoose;
   color: #ec5242;
   font-size: 1.1rem;
   text-align: center;
@@ -46,7 +44,6 @@ header {
 
 .article-text {
   color: #272a31;
-  font-family: lato;
   font-size: 0.8rem;
   line-height: 1.5;
   padding: 10px;
@@ -56,7 +53,6 @@ header {
 }
 
 .location-text {
-  font-family: cocogoose;
   color: #272a31;
   font-size: 0.5rem;
   text-align: center;
@@ -64,7 +60,6 @@ header {
 
 .bottom-text {
   color: #272a31;
-  font-family: lato;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
@@ -73,7 +68,6 @@ header {
 
 .bottom-text2 {
   color: #272a31;
-  font-family: lato;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
@@ -162,7 +156,6 @@ header {
   color: white;
   text-align: center;
   padding-top: 50px;
-  font-family: lato;
 }
 
 .orange-img {
@@ -210,17 +203,14 @@ header {
 }
 
 .mozilla {
-  font-family: lato;
   font-weight: bolder;
 }
 
 .google {
   font-weight: lighter;
-  font-family: lato;
 }
 
 .naver {
-  font-weight: cocogoose;
   font-weight: bolder;
 }
 
@@ -241,7 +231,6 @@ header {
   width: 50%;
   font-size: 0.7rem;
   padding-left: 30px;
-  font-family: lato;
 }
 
 .ccn-logo1 {
@@ -290,9 +279,6 @@ header {
     padding-left: 5px;
   }
 
-  .main-header {
-    display: flex;
-  }
 
   .header-list {
     display: flex;
@@ -336,7 +322,6 @@ header {
     color: white;
     padding: 0 10px;
     text-decoration: none;
-    font-family: lato, sans-serif;
   }
 
   .bar {
@@ -354,10 +339,6 @@ header {
     background-color: #f8f4f4;
   }
 
-  .location-text {
-    padding-top: 30px;
-    font-size: 1rem;
-  }
 
   .bottom-display {
     display: block;
@@ -368,7 +349,10 @@ header {
     width: 80%;
     margin: 0 auto;
     font-size: 0.7rem;
+    padding-top: 30px;
   }
+  
+
 
   .bottom-text {
     display: none;

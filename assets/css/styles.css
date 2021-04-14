@@ -21,7 +21,6 @@ header {
 }
 
 .hello-text {
-  font-family: lato;
   color: #ec5242;
   font-size: 1.5rem;
 }
@@ -31,7 +30,6 @@ header {
 }
 
 .code-text {
-  font-family: cocogoose;
   background: -webkit-linear-gradient(#ec5242, #272a31);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -44,7 +42,6 @@ header {
 
 .article-text {
   color: #272a31;
-  font-family: lato;
   font-size: 0.7rem;
   line-height: 2;
   padding: 10px;
@@ -53,14 +50,12 @@ header {
 }
 
 .location-text {
-  font-family: cocogoose;
   color: #272a31;
   font-size: 1.5rem;
 }
 
 .bottom-text {
   color: #272a31;
-  font-family: lato;
   font-size: 0.8rem;
 }
 
@@ -86,13 +81,11 @@ header {
 .mid-text {
   color: #ec5242;
   font-size: 0.8rem;
-  font-family: cocogoose;
 }
 
 .text-flex {
   font-size: 0.8rem;
   color: #d3d3d3;
-  font-family: lato;
   font-weight: bold;
   width: 60%;
 }
@@ -103,17 +96,11 @@ header {
 
 .ccn-button {
   background-color: #ec5242;
-  margin: 0 auto;
   padding: 20px;
   border: 1px solid #ec5242;
   text-align: center;
   margin: 20px 0;
   color: #d3d3d3;
-  font-family: lato;
-}
-
-.feature-speaker {
-  font-family: lato;
 }
 
 .circle {
@@ -189,9 +176,11 @@ footer {
   }
 
   .main-header {
+    border-bottom: 1px solid #3e3e3e;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-
   .header-list {
     display: flex;
     list-style: none;
@@ -216,12 +205,6 @@ footer {
     color: #3e3e3e;
   }
 
-  .main-header {
-    border-bottom: 1px solid #3e3e3e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
   .desktop-nav {
     display: flex;
@@ -234,7 +217,7 @@ footer {
     color: white;
     padding: 0 10px;
     text-decoration: none;
-    font-family: lato, sans-serif;
+    font-family: sans-serif;
   }
 
   .bar {
@@ -328,17 +311,14 @@ footer {
   }
 
   .mozilla {
-    font-family: lato;
     font-weight: bolder;
   }
 
   .google {
     font-weight: lighter;
-    font-family: lato;
   }
 
   .naver {
-    font-weight: cocogoose;
     font-weight: bolder;
   }
 
@@ -364,7 +344,6 @@ footer {
     width: 50%;
     font-size: 0.7rem;
     padding-left: 30px;
-    font-family: lato;
   }
 
   .ccn-logo1 {
