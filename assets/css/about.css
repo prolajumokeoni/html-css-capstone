@@ -19,18 +19,35 @@ header {
   font-family: lato;
   color: #ec5242;
   font-size: 1.5rem;
-
 }
 .ccn-text {
   text-decoration: none;
 }
 .code-text {
   font-family: cocogoose;
-  background: -webkit-linear-gradient(#ec5242, #272a31);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color: #ec5242;
+	font-size: .8rem;
 }
 .text-wrapper {
   margin: 20px auto;
-  width: 90%;
+  width: 80%;
+}
+
+.article-text {
+  color: #272a31;
+  font-family: lato;
+  font-size: .5rem;
+  padding: 10px;
+  border: 3px solid white;
+  background-color: #d3d3d3;
+}
+.location-text {
+  /* font-family: cocogoose; */
+  color: #272a31;
+  font-size: 1.5rem;
+}
+.bottom-text {
+  color: #272a31;
+  font-family: lato;
+  font-size: .8rem;
 }
