@@ -19,6 +19,7 @@ header {
   font-family: lato;
   color: #ec5242;
   font-size: 1.5rem;
+	text-align: center;
 }
 .ccn-text {
   text-decoration: none;
@@ -26,7 +27,8 @@ header {
 .code-text {
   font-family: cocogoose;
 	color: #ec5242;
-	font-size: .8rem;
+	font-size: 1.1rem;
+	text-align: center;
 }
 .text-wrapper {
   margin: 20px auto;
@@ -36,18 +38,77 @@ header {
 .article-text {
   color: #272a31;
   font-family: lato;
-  font-size: .5rem;
+  font-size: .7rem;
+	line-height: 1.5;
   padding: 10px;
-  border: 3px solid white;
-  background-color: #d3d3d3;
+  border: 3px solid #d3d3d3;
+  background-color: #f0eeee;
+	text-align: justify;
 }
 .location-text {
-  /* font-family: cocogoose; */
+  font-family: cocogoose;
   color: #272a31;
-  font-size: 1.5rem;
+  font-size: .5rem;
+	text-align: center;
 }
 .bottom-text {
   color: #272a31;
   font-family: lato;
   font-size: .8rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0;
+}
+.bottom-text2 {
+  color: #272a31;
+  font-family: lato;
+  font-size: .8rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.underline-small {
+	display:  block;
+	position: relative;
+}
+.underline-small::after {
+	content: '';
+	height: 2px;
+	width: 10%;
+	background-color: #ec5242;
+	position: absolute;
+	left: 45%;
+	bottom: -5px;
+}
+.about-logo {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ccn-about {
+	display: flex;
+	align-items: center;
+	padding: 10 20px;
+	border: 1px solid #272a31;
+	margin-top: 30px;
+	padding-top: 15px 30px;
+}
+
+.logo-img {
+	width: 100px;
+	height: 100px;
+}
+.ccn-width {
+	width: 150px;
+}
+
+.small-date {
+	font-size: .3rem;
+	margin-bottom: 20px;
+	border-top: 1px solid #272a31;
+	border-bottom: 1px solid #272a31;
+}
+.design-logo {
+	display: inline-block;
 }
