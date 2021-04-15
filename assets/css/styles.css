@@ -1,9 +1,18 @@
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/Lato/cocogoose.ttf);
+}
 a {
   text-decoration: none;
 }
 
 body {
   background-color: #f0eeee;
+  font-family: "Lato Regular";
 }
 
 .desktop-nav {
