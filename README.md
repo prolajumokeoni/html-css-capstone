@@ -25,6 +25,10 @@ This project is a html-css-capstone project, the project was built mainly for tw
 
 [Live Demo Link](https://prolajumokeoni.github.io/html-css-capstone/)
 
+## Video Link
+
+[video Link](https://github.com/prolajumokeoni/html-css-capstone/pull/3)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
