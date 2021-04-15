@@ -38,22 +38,6 @@ header {
   color: #272a31;
 }
 
-
-.underline-small {
-  display: block;
-  position: relative;
-}
-
-.underline-small::after {
-  content: '';
-  height: 2px;
-  width: 10%;
-  background-color: #ec5242;
-  position: absolute;
-  left: 45%;
-  bottom: -5px;
-}
-
 .border-mix {
   border: 5px dashed firebrick;
   background:
@@ -63,7 +47,6 @@ header {
     linear-gradient(to left, rgb(38, 22, 128), 5px, transparent 5px);
   background-origin: border-box;
 }
-
 
 .footer-main {
   background-color: #272727;

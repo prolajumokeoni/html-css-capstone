@@ -160,17 +160,18 @@ header {
   text-align: right;
 }
 
-
 .graduate-text {
   padding: 10px 5px;
   text-align: center;
   font-size: 0.7rem;
   color: #272a31;
 }
+
 .graduuate-p {
   width: 90%;
   margin: 0 auto;
 }
+
 .background-laptop {
   height: 150px;
   width: 300px;
