@@ -8,6 +8,11 @@
   src: url(../fonts/cocogoose/Cocogoose_trial.otf);
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }

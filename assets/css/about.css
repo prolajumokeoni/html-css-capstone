@@ -5,7 +5,12 @@
 
 @font-face {
   font-family: "cocogoose";
-  src: url(../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+  src: url(../fonts/cocogoose/Cocogoose_trial.otf);
+}
+
+body,
+html {
+  overflow-x: hidden;
 }
 
 a {
@@ -34,7 +39,6 @@ header {
 }
 
 .hello-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ec5242;
   font-size: 1.5rem;
   text-align: center;
@@ -43,13 +47,17 @@ header {
 .ccn-text {
   text-decoration: none;
   text-align: center;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
 }
 
 .code-text {
-  font-family: sans-serif;
   color: #ec5242;
-  font-size: 1.1rem;
   text-align: center;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
 }
 
 .text-wrapper {
@@ -119,10 +127,11 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 30%;
+  width: 300px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 50px;
+  border: 1px solid #272a31;
 }
 
 .logo-img {
@@ -151,10 +160,6 @@ header {
   text-align: right;
 }
 
-.about-graduates {
-  width: 80%;
-  margin: 0 auto;
-}
 
 .graduate-text {
   padding: 10px 5px;
@@ -162,16 +167,18 @@ header {
   font-size: 0.7rem;
   color: #272a31;
 }
-
+.graduuate-p {
+  width: 90%;
+  margin: 0 auto;
+}
 .background-laptop {
   height: 150px;
-  width: 100%;
+  width: 300px;
   background-size: 100% 100%;
   margin: 10px 0;
   color: white;
   text-align: center;
   padding-top: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .orange-img {
@@ -192,6 +199,12 @@ header {
       rgba(189, 8, 8, 0.932)
     ),
     url("../images/bluegirl.png");
+}
+
+.blue-img,
+.orange-img {
+  width: 300px;
+  margin: 10px auto;
 }
 
 .footer-main {
@@ -366,7 +379,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 700px;
     margin: 0 auto;
   }
 
@@ -376,8 +389,7 @@ header {
 
   .blue-img,
   .orange-img {
-    padding-right: 10px;
-    width: 100%;
+    width: 350px;
   }
 
   .last-about {
@@ -399,9 +411,8 @@ header {
   }
 
   .last-footer {
-    width: 50%;
-    margin: 0 auto;
-    align-items: center;
+    width: 600px;
+    justify-content: center;
   }
 
   .footer-main {
