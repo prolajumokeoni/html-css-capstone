@@ -141,9 +141,8 @@ header,
   display: flex;
   margin-top: 10px;
   margin: 0 auto;
-  width: 400px;
+  width: 380px;
   position: relative;
-  border: 1px solid red;
 }
 .grp-img {
   width: 40%;
@@ -379,14 +378,23 @@ footer {
   }
 
   .display-prog {
-    width: 98%;
+    display: flex;
+    width: 95%;
     margin: 0 auto;
+  }
+  .main-wrapper {
+    width: 70%;
   }
 
   .program-flex:nth-of-type(4) {
     border: 2px solid #d3d3d3;
   }
 
+  
+  .grp-wrapper {
+    width: 370px;
+    position: relative;
+  }
 
   .grp-wrapper:nth-of-type(3),
   .grp-wrapper:nth-of-type(4),
