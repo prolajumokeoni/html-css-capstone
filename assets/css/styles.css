@@ -141,7 +141,7 @@ header,
   display: flex;
   margin-top: 10px;
   margin: 0 auto;
-  width: 380px;
+  width: 400px;
   position: relative;
 }
 .grp-img {
@@ -260,7 +260,7 @@ footer {
 }
 
 .footer-text {
-  width: 50%;
+  width: 200px;
   font-size: 0.7rem;
   padding-left: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
