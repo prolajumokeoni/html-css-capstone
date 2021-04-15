@@ -277,55 +277,42 @@ header {
 }
 
 @media (min-width: 768px) {
-  .ccn1 {
-    width: 15%;
-    padding-left: 20px;
+  .ccn {
+    width: 55px;
+    height: 45px;
+    border-radius: 80px;
+    padding-right: 5px;
   }
 
-  .head-ccn {
+  .main-header {
+    padding-right: 150px;
+    height: 100%;
+    border-bottom: 1px solid #3e3e3e;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
-  }
-
-  .head-logo {
-    width: 60px;
-    height: 60px;
-  }
-
-  .text-logo {
-    padding-left: 5px;
+    width: 100%;
+    align-content: center;
   }
 
   .header-list {
     display: flex;
     list-style: none;
-    padding-right: 100px;
-    align-items: center;
+    justify-content: flex-end;
+    margin-top: 14px;
   }
 
-  .ccn-logo1 {
-    display: flex;
+  .ccn-logo {
+    display: inline-flex;
     align-items: center;
     padding-left: 50px;
   }
 
-  .ccn-text1 {
-    width: 100px;
-    padding-left: 10px;
-  }
-
   .header-links {
-    padding: 0 10px;
     text-decoration: none;
     color: #3e3e3e;
-  }
-
-  .main-header {
-    border-bottom: 1px solid #3e3e3e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    vertical-align: middle;
+    padding: 0 10px;
   }
 
   .desktop-nav {
@@ -339,7 +326,6 @@ header {
     color: white;
     padding: 0 10px;
     text-decoration: none;
-    font-family: sans-serif;
   }
 
   .bar {
