@@ -268,8 +268,8 @@ footer {
 
 @media (min-width: 768px) {
   .ccn {
-    width: 75px;
-    height: 65px;
+    width: 55px;
+    height: 45px;
     border-radius: 80px;
     padding-right: 5px;
   }
@@ -289,7 +289,7 @@ footer {
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    margin-top: 15px;
+    margin-top: 14px;
   }
 
   .ccn-logo {
