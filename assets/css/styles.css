@@ -60,6 +60,9 @@ body {
 .location-text {
   color: #272a31;
   font-size: 1.5rem;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
 }
 
 .bottom-text {
@@ -74,7 +77,6 @@ body {
 .program {
   background-image: url('../images/blackimg.png');
   height: auto;
-  margin: 0 auto;
 }
 
 .program-flex {
@@ -91,6 +93,9 @@ body {
 .mid-text {
   color: #ec5242;
   font-size: 0.8rem;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
 }
 
 .text-flex {
@@ -174,6 +179,9 @@ header,
 }
 .title {
   margin-top: 20px;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
 }
 
 .sub-text {
@@ -213,6 +221,7 @@ footer {
   display: block;
   height: 200px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .footer-header {
@@ -224,7 +233,7 @@ footer {
   list-style: none;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 40px 0;
   width: 85%;
 }
 
@@ -251,7 +260,7 @@ footer {
 }
 
 .last-footer {
-  width: 80%;
+  width: 300px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -259,16 +268,16 @@ footer {
 }
 
 .footer-text {
-  width: 50%;
+  width: 150px;
   font-size: 0.7rem;
-  padding-left: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .ccn-logo1 {
   display: flex;
   align-items: center;
-  padding: 50px 0;
+  width: 100px;
 }
 
 .footer-ccn {
@@ -458,11 +467,12 @@ footer {
   }
 
   .last-footer {
-    width: 70%;
+    width: 400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 20px;
   }
 
   .footer-text {
