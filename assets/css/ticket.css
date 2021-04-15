@@ -38,58 +38,6 @@ header {
   color: #272a31;
 }
 
-.hello-text {
-  color: #ec5242;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.ccn-text {
-  text-decoration: none;
-  text-align: center;
-}
-
-.code-text {
-  color: #ec5242;
-  font-size: 1.1rem;
-  text-align: center;
-}
-
-.text-wrapper {
-  margin: 20px auto;
-  width: 80%;
-}
-
-.article-text {
-  color: #272a31;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  padding: 10px;
-  border: 3px solid #d3d3d3;
-  background-color: #f0eeee;
-  text-align: center;
-}
-
-.location-text {
-  color: #272a31;
-  font-size: 0.5rem;
-  text-align: center;
-}
-
-.bottom-text {
-  color: #272a31;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.bottom-text2 {
-  color: #272a31;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-align: center;
-}
 
 .underline-small {
   display: block;
@@ -106,95 +54,16 @@ header {
   bottom: -5px;
 }
 
-.about-logo {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
+.border-mix {
+  border: 5px dashed firebrick;
+  background:
+    linear-gradient(to top, rgb(38, 22, 128), 5px, transparent 5px),
+    linear-gradient(to right, rgb(38, 22, 128), 5px, transparent 5px),
+    linear-gradient(to bottom, rgb(38, 22, 128), 5px, transparent 5px),
+    linear-gradient(to left, rgb(38, 22, 128), 5px, transparent 5px);
+  background-origin: border-box;
 }
 
-.ccn-about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 30%;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 50px;
-}
-
-.logo-img {
-  width: 60px;
-  height: 60px;
-}
-
-.ccn-width {
-  width: 150px;
-}
-
-.small-date {
-  font-size: 0.3rem;
-  margin-bottom: 20px;
-  border-top: 1px solid #272a31;
-  border-bottom: 1px solid #272a31;
-  position: absolute;
-  width: 120px;
-  left: 10px;
-  top: 52px;
-}
-
-.design-logo {
-  display: inline-block;
-  position: relative;
-  text-align: right;
-}
-
-.about-graduates {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.graduate-text {
-  padding: 10px 5px;
-  text-align: center;
-  font-size: 0.7rem;
-  color: #272a31;
-}
-
-/*
-.laptop {
-	width: 100%;
-	margin: 10px auto;
-} */
-.background-laptop {
-  height: 150px;
-  width: 100%;
-  background-size: 100% 100%;
-  margin: 10px 0;
-  color: white;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.orange-img {
-  background-image:
-    linear-gradient(
-      to right bottom,
-      rgba(194, 9, 9, 0.575),
-      rgba(184, 39, 39, 0.507)
-    ),
-    url("../images/orange-girl.png");
-}
-
-.blue-img {
-  background-image:
-    linear-gradient(
-      to right bottom,
-      rgba(194, 9, 9, 0.575),
-      rgba(189, 8, 8, 0.932)
-    ),
-    url("../images/bluegirl.png");
-}
 
 .footer-main {
   background-color: #272727;
