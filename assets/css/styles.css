@@ -124,10 +124,10 @@ header,
 
 .girl {
   width: 100px;
-  height: 100px;
+  height: 120px;
   left: 30px;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 5px;
 }
 .main-wrapper {
@@ -379,8 +379,7 @@ footer {
   }
 
   .display-prog {
-    display: flex;
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
   }
 
@@ -388,11 +387,6 @@ footer {
     border: 2px solid #d3d3d3;
   }
 
-  
-  .grp-wrapper {
-    width: 45%;
-    position: relative;
-  }
 
   .grp-wrapper:nth-of-type(3),
   .grp-wrapper:nth-of-type(4),
