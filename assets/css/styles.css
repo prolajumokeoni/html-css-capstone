@@ -89,6 +89,7 @@ header,
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .mid-text {
@@ -147,7 +148,20 @@ header,
 .grp-wrapper:nth-of-type(6) {
   display: none;
 }
+.underline-small {
+  display: block;
+  position: relative;
+}
 
+.underline-small::after {
+  content: '';
+  height: 2px;
+  width: 10%;
+  background-color: #ec5242;
+  position: absolute;
+  left: 45%;
+  bottom: -5px;
+}
 .title {
   margin-top: 20px;
 }
@@ -343,7 +357,7 @@ footer {
     border: #d3d3d3;
     text-align: center;
     margin: 2px;
-    padding: 0 10px;
+    padding: 10px 10px;
   }
 
   .text-flex {
@@ -354,10 +368,15 @@ footer {
 
   .display-prog {
     display: flex;
-    width: 60%;
+    width: 95%;
     margin: 0 auto;
   }
 
+  .program-flex:nth-of-type(4) {
+    border: 2px solid #d3d3d3;
+  }
+
+  
   .grp-wrapper {
     width: 45%;
     position: relative;
