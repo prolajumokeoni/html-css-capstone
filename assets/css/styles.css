@@ -2,24 +2,25 @@
   font-family: "Lato Regular";
   src: url(../fonts/Lato/Lato-Regular.ttf);
 }
+
 @font-face {
   font-family: "cocogoose";
-  src: url(../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+  src: url(../fonts/cocogoose/Cocogoose_trial.otf);
 }
+
 a {
   text-decoration: none;
 }
 
 body {
-  background-color: #f0eeee;
+  background-color: #d3d3d3;
+  /* stylelint-disable */
   font-family: "Lato Regular";
+  /* stylelint-enable */
 }
 
+header,
 .desktop-nav {
-  display: none;
-}
-
-header {
   display: none;
 }
 
@@ -42,6 +43,9 @@ header {
   background: -webkit-linear-gradient(#ec5242, #272a31);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
 }
 
 .text-wrapper {
@@ -171,48 +175,134 @@ header {
 .img-icon {
   height: 50px;
   width: 50px;
-  fill: #fff;
+  background-color: #d3d3d3;
+  border-radius: 50px;
+  padding: 3px;
 }
 
 footer {
+  padding-top: 20px;
+}
+
+.footer-main {
+  background-color: #272727;
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-header {
+  padding-top: 20px;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 85%;
+}
+
+.flex-f {
+  padding: 10px;
+}
+
+.mozilla {
+  font-weight: bolder;
+}
+
+.google {
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.naver {
+  font-weight: bolder;
+}
+
+.airnb {
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.last-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: 0.7rem;
+  padding-left: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ccn-logo1 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footer-ccn {
+  width: 60px;
+  height: 60px;
+}
+
+.last-about {
+  display: none;
+}
+
+.last-fabout {
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.bottom-display {
   display: none;
 }
 
 @media (min-width: 768px) {
   .ccn {
-    width: 15%;
-    padding-left: 20px;
+    width: 75px;
+    height: 65px;
+    border-radius: 80px;
+    padding-right: 5px;
   }
 
   .main-header {
+    padding-right: 150px;
+    height: 100%;
     border-bottom: 1px solid #3e3e3e;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    align-content: center;
   }
 
   .header-list {
     display: flex;
     list-style: none;
-    padding-right: 100px;
-    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
   }
 
   .ccn-logo {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding-left: 50px;
   }
 
-  .ccn-text {
-    width: 100px;
-    padding-left: 10px;
-  }
-
   .header-links {
-    padding: 0 10px;
     text-decoration: none;
     color: #3e3e3e;
+    vertical-align: middle;
+    padding: 0 10px;
   }
 
   .desktop-nav {
@@ -226,7 +316,6 @@ footer {
     color: white;
     padding: 0 10px;
     text-decoration: none;
-    font-family: sans-serif;
   }
 
   .bar {
@@ -234,7 +323,8 @@ footer {
   }
 
   .code-text {
-    width: 50%;
+    margin: 0 auto;
+    font-size: 3rem;
   }
 
   .article-text {
@@ -242,7 +332,9 @@ footer {
   }
 
   .text-wrapper {
-    margin-bottom: 50px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .program-flex {

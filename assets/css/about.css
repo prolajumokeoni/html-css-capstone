@@ -2,16 +2,21 @@
   font-family: "Lato Regular";
   src: url(../fonts/Lato/Lato-Regular.ttf);
 }
+
 @font-face {
   font-family: "cocogoose";
   src: url(../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
 }
+
 a {
   text-decoration: none;
 }
 
 body {
-  background-color: #f0eeee;
+  background-color: #d3d3d3;
+  /* stylelint-disable */
+  font-family: "Lato Regular";
+  /* stylelint-enable */
 }
 
 .desktop-nav {
@@ -158,11 +163,6 @@ header {
   color: #272a31;
 }
 
-/*
-.laptop {
-	width: 100%;
-	margin: 10px auto;
-} */
 .background-laptop {
   height: 150px;
   width: 100%;
