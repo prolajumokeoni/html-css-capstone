@@ -113,14 +113,15 @@ body {
 }
 
 .circle {
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
 }
 
 .girl {
-  width: 100px;
-  height: 120px;
-  left: 30px;
+  width: 80px;
+  height: 80px;
+  left: 20px;
   position: absolute;
   margin-top: 20px;
   margin-left: 5px;
@@ -130,21 +131,20 @@ body {
   flex-wrap: wrap;
   width: 95%;
   margin: 0 auto;
-  justify-content: space-between;
 }
 .grp-wrapper {
   display: flex;
   margin-top: 10px;
   margin: 0 auto;
-  width: 400px;
+  width: 450px;
   position: relative;
 }
 .grp-img {
-  width: 45%;
+  width: 30%;
 }
 
 .grp-text {
-  width: 45%;
+  width: 60%;
 }
 header,
 .desktop-nav,
@@ -376,7 +376,7 @@ footer {
     margin: 0 auto;
   }
   .main-wrapper {
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     align-items: center;
   }
@@ -384,12 +384,12 @@ footer {
   .program-flex:nth-of-type(4) {
     border: 2px solid #d3d3d3;
   }
-
   
   .grp-wrapper {
-    width: 350px;
+    width: 300px;
     position: relative;
     margin: 0;
+    border: 1px solid red;
   }
 
   .grp-wrapper:nth-of-type(3),
@@ -400,13 +400,11 @@ footer {
   }
 
  .grp-text {
-  width: 50%;
+  width: 60%;
  }
  .grp-img {
-  width: 50%;
+  width: 40%;
  }
-
- 
 
   .ccn-button {
     background-color: unset;
