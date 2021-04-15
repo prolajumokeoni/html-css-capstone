@@ -120,7 +120,6 @@ header,
 .circle {
   width: 90px;
   height: 90px;
-  position: relative;
 }
 
 .girl {
@@ -131,11 +130,23 @@ header,
   margin-top: 30px;
   margin-left: 5px;
 }
-
+.main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
 .grp-wrapper {
   display: flex;
-  justify-content: space-between;
   margin-top: 10px;
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+  border: 1px solid red;
+}
+.grp-img {
+  width: 40%;
 }
 
 .grp-text {
@@ -148,6 +159,7 @@ header,
 .grp-wrapper:nth-of-type(6) {
   display: none;
 }
+
 .underline-small {
   display: block;
   position: relative;
@@ -389,13 +401,7 @@ footer {
     display: flex;
   }
 
-  .main-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 65%;
-    margin: 0 auto;
-    justify-content: space-between;
-  }
+ 
 
   .box {
     display: none;
