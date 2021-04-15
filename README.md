@@ -1,8 +1,9 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
->  ### A website development course site
-This project is a html-css-capstone project, the project was built mainly for two screen sizes mobile and desktop. 
+# A web development course site
+This project is a html-css-capstone project, the project was built mainly for two screen sizes mobile and desktop. The capstone project is developed to help implement all that has been learnt in  the html-css module. From the [specification](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) we are to create a concert or web development course website.
 
-# Screenshots
+## Screenshots
 ### Main-page
 ![127 0 0 1_5500_index html (2)](https://user-images.githubusercontent.com/69638013/114945387-22de7800-9e41-11eb-898a-7eaf135bd172.png)
 
