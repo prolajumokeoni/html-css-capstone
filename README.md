@@ -18,7 +18,7 @@ Code Camp Nigeria is a web development course website, the project was built mai
 
 ## Video Link
 
-[video Link](https://github.com/prolajumokeoni/html-css-capstone/pull/3)
+[video Link](https://www.loom.com/share/0603e30b7c634fc5a160e84462d7cda9)
 
 ## Getting Started
 
@@ -26,8 +26,8 @@ To get a local copy up and running follow these simple example steps.
 - Go to https://github.com/prolajumokeoni/html-css-capstone
 
 - Click on the code and copy the HTML code
-- Use terminal or github desktop to clone this repository on your local machine
-- Create a new branch and ake your contributions
+- Use terminal or github desktop to clone this repository to  your local machine
+- Create a new branch and make your contributions
 - Push your branch up to your forked repository
 - Open a Pull Request with a detailed description of the development branch of the original project for a review
 
@@ -39,12 +39,10 @@ To get a local copy up and running follow these simple example steps.
 - Gitbash 
 - Download lato and cocogoose font
 - Download Bootstrap
-
-### Usage
-- Fork so you can edit this changes
+- node.js 
 
 ### Deployment
-- Deploy to github pages
+- Deploy page to github pages
 
 
 ## Authors
