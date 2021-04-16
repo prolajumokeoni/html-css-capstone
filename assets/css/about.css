@@ -8,11 +8,6 @@
   src: url(../fonts/cocogoose/Cocogoose_trial.otf);
 }
 
-body,
-html {
-  overflow-x: hidden;
-}
-
 a {
   text-decoration: none;
 }
@@ -24,82 +19,74 @@ body {
   /* stylelint-enable */
 }
 
-.desktop-nav {
-  display: none;
-}
-
-header {
-  display: none;
-}
-
 .bar {
   font-size: 2rem;
   padding: 0 30px;
-  color: #272a31;
 }
 
 .hello-text {
-  color: #ec5242;
   font-size: 1.5rem;
   text-align: center;
 }
-
+.code-text,
 .ccn-text {
-  text-decoration: none;
   text-align: center;
   /* stylelint-disable */
   font-family: "cocogoose";
   /* stylelint-enable */
 }
 
-.code-text {
-  color: #ec5242;
-  text-align: center;
-  /* stylelint-disable */
-  font-family: "cocogoose";
-  /* stylelint-enable */
-}
 
 .text-wrapper {
   margin: 20px auto;
   width: 80%;
 }
 
-.article-text {
+.orange {
+  color: #ec5242;
+} 
+
+.ash {
   color: #272a31;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blue {
+  color: #d3d3d3;
+}
+
+.bg-blue {
+  background-color: #d3d3d3;
+}
+
+.bg-ash {
+  background-color: #272727;
+}
+
+.article-text {
   font-size: 0.8rem;
   line-height: 1.5;
   padding: 10px;
-  border: 3px solid #d3d3d3;
-  background-color: #f0eeee;
+  border: 1px solid #272a31;
   text-align: center;
 }
 
 .location-text {
-  font-family: sans-serif;
-  color: #272a31;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
   font-size: 0.5rem;
   padding-top: 30px;
   text-align: center;
 }
 
+.bottom-text2,
 .bottom-text {
-  color: #272a31;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 0;
 }
 
-.bottom-text2 {
-  color: #272a31;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-align: center;
-}
 
 .underline-small {
   display: block;
@@ -140,18 +127,20 @@ header {
 }
 
 .ccn-width {
-  width: 150px;
+  width: 160px;
+  text-align: left;
+  padding-left: 7px;
 }
 
 .small-date {
-  font-size: 0.3rem;
+  font-size: 0.4rem;
   margin-bottom: 20px;
   border-top: 1px solid #272a31;
   border-bottom: 1px solid #272a31;
   position: absolute;
   width: 120px;
   left: 10px;
-  top: 52px;
+  top: 42px;
 }
 
 .design-logo {
@@ -164,7 +153,6 @@ header {
   padding: 10px 5px;
   text-align: center;
   font-size: 0.7rem;
-  color: #272a31;
 }
 
 .graduuate-p {
@@ -209,7 +197,6 @@ header {
 }
 
 .footer-main {
-  background-color: #272727;
   display: block;
   height: 200px;
   width: 100%;
@@ -218,10 +205,11 @@ header {
 .footer-header {
   padding-top: 20px;
 }
-
+li {
+  list-style: none;
+}
 .footer-list {
   display: flex;
-  list-style: none;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -262,7 +250,6 @@ header {
   width: 50%;
   font-size: 0.7rem;
   padding-left: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ccn-logo1 {
@@ -276,19 +263,10 @@ header {
   height: 60px;
 }
 
-.last-about {
+.hide-items {
   display: none;
 }
 
-.last-fabout {
-  font-size: 0.6rem;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.bottom-display {
-  display: none;
-}
 
 @media (min-width: 768px) {
   .ccn {
@@ -311,7 +289,6 @@ header {
 
   .header-list {
     display: flex;
-    list-style: none;
     justify-content: flex-end;
     margin-top: 14px;
   }
@@ -327,27 +304,18 @@ header {
   }
 
   .header-links {
-    text-decoration: none;
-    color: #3e3e3e;
     vertical-align: middle;
     padding: 0 10px;
   }
-
+  
   .desktop-nav {
     display: flex;
-    background-color: #3e3e3e;
     justify-content: flex-end;
     padding-right: 150px;
   }
 
   .desktop-icons {
-    color: white;
     padding: 0 10px;
-    text-decoration: none;
-  }
-
-  .bar {
-    display: none;
   }
 
   .code-text {
@@ -358,7 +326,6 @@ header {
     width: 70%;
     margin: 0 auto;
     font-size: 1rem;
-    background-color: #f8f4f4;
   }
 
   .bottom-display {
@@ -370,10 +337,6 @@ header {
     width: 80%;
     margin: 0 auto;
     font-size: 0.7rem;
-  }
-
-  .bottom-text {
-    display: none;
   }
 
   .ccn-about {
@@ -398,30 +361,14 @@ header {
   }
 
   .last-about {
-    display: block;
-    text-align: left;
-  }
-
-  .naija {
-    color: white;
-    padding-left: 5px;
-    width: 60px;
-    text-align: left;
-    font-size: 0.8rem;
-  }
-
-  .background-footer {
-    background-color: #272727;
-    color: #d3d3d3;
-  }
-
-  .last-footer {
-    width: 600px;
-    justify-content: center;
-  }
-
-  .footer-main {
     display: none;
+  }
+  
+  .ccn-logo1 {
+    width: 250px;
+  }
+  .last-footer {
+    width: 300px;
   }
 }
 

@@ -35,9 +35,6 @@ body {
   font-size: 1.5rem;
 }
 
-.ccn-text {
-  text-decoration: none;
-}
 
 .code-text {
   background: -webkit-linear-gradient(#ec5242, #272a31);
@@ -170,7 +167,9 @@ header,
 .grp-wrapper:nth-of-type(6) {
   display: none;
 }
-
+.hide-items {
+  display: none;
+}
 .underline-small {
   display: block;
   position: relative;
