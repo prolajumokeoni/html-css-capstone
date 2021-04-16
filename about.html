@@ -17,21 +17,28 @@
 		<a class="desktop-icons" href="#"><h6>Logout</h6></a>
 	</nav>
 	<header class="main-header">
+		<div class="times-icon"><i class="fas fa-times"></i></div>
 		<div class="ccn-logo">
-			<a href="./index.html"><img class="ccn" src="./assets/images/logoccn.png" alt="ccn"></a>
-			<a class="link-dark" href="#"><h6 class="ccn-text text-nowrap">Code Camp Nigeria</h6></a>
+			<img class="ccn" src="./assets/images/logoccn.png" alt="ccn">
+			<a class="link-dark" href="./index.html"><h6 class="ccn-text text-nowrap">Code Camp Nigeria</h6></a>
 		</div>
-		<ul class="header-list">
-			<li><a class="header-links link-danger text-danger" href="./about.html">About</a></li>
-			<li><a class="header-links text-muted" href="#">Program</a></li>
-			<li><a class="header-links text-muted" href="#">Join</a></li>
-			<li><a class="header-links text-muted link-danger text-danger" href="./ticket.html">Ticket</a></li>
-			<li><button type="button" class="btn btn-outline-danger text-nowrap p-0 border-3 px-1">CCN Campaign</button></li>
-			<li><a class="header-links text-muted" href="./index.html">Home</a></li>
-		</ul>
+		<div class="diver">
+			<ul class="header-list">
+				<li><a class="header-links text-muted" href="./about.html">About</a></li>
+				<li><a class="header-links text-muted" href="#">Program</a></li>
+				<li><a class="header-links text-muted" href="#">Join</a></li>
+				<li><a class="header-links text-muted" href="./ticket.html">Ticket</a></li>
+				<li><button type="button" class="btn btn-outline-danger text-nowrap p-0 border-3 px-1">CCN Campaign</button></li>
+				<li><a class="header-links text-muted" href="./index.html">Home</a></li>
+			</ul>
+		</div>
 	</header>
-	<nav>
-		<a class="text-muted bar" href="./index.html"><i class="fas fa-bars"></i></a>
+	<nav id="hamburger" class="d-flex justify-content-between align-items-center px-2 py-2">
+		<div id="burger" class="text-muted bar"><i class="fas fa-bars"></i></div>
+		<a class=" ccn-logo d-flex justify-content-center align-items-center flex-column" href="./index.html">
+			<img class="ccn-mobile lego" src="./assets/images/logoccn.png" alt="ccn">
+			<h6 class="ccn-text-mobile text-nowrap text-dark lego">Code Camp Nigeria</h6>
+		</a>
 	</nav>
 	<article class="text-wrapper">
 		<h6 class="hello-text text-nowrap">"Hello! sharing World"</h6>
@@ -91,6 +98,18 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		const hamburger = document.getElementById("burger");
+      const links = document.querySelector(".main-header");
+			const closebtn = document.querySelector(".times-icon")
+      hamburger.addEventListener("click", function () {
+        links.classList.add("visible");
+      });
+			closebtn.addEventListener("click", function () {
+				console.log("closebtn")
+        links.classList.remove("visible");
+      });
+	</script>
 	<script src="https://kit.fontawesome.com/8107cf6975.js" crossorigin="anonymous"></script>
 </body>
 </html>

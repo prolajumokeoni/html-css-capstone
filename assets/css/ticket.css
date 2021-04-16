@@ -160,6 +160,10 @@ header {
     padding-left: 50px;
   }
 
+  .lego {
+    display: none;
+  }
+  
   .header-links {
     text-decoration: none;
     color: #272a31;
@@ -260,4 +264,42 @@ header {
   .footer-main {
     display: none;
   }
+}
+
+.times-icon {
+  display: none;
+}
+.times-icon i {
+ font-size: 1.5rem;
+}
+.ccn-mobile {
+  width: 2rem;
+}
+.ccn-text-mobile {
+  font-size: .7rem;
+}
+
+.main-header.visible {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  background-color: #d3d3d3;
+  z-index: 9999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-header.visible .ccn-logo {
+  display: none;
+}
+
+.main-header.visible .times-icon {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
 }
