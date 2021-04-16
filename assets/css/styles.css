@@ -35,7 +35,7 @@ body {
 
 .orange {
   color: #ec5242;
-} 
+}
 
 .ash {
   color: #272a31;
@@ -171,16 +171,17 @@ body {
   width: 60%;
 }
 
-
 .grp-wrapper:nth-of-type(3),
 .grp-wrapper:nth-of-type(4),
 .grp-wrapper:nth-of-type(5),
 .grp-wrapper:nth-of-type(6) {
   display: none;
 }
+
 .hide-items {
   display: none;
 }
+
 .underline-small {
   display: block;
   position: relative;
@@ -250,6 +251,7 @@ footer {
 li {
   list-style: none;
 }
+
 .footer-list {
   display: flex;
   justify-content: space-around;
@@ -340,10 +342,6 @@ li {
     display: inline-flex;
     align-items: center;
     padding-left: 50px;
-  }
-
-  .lego {
-    display: none;
   }
 
   .header-links {

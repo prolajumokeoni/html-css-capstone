@@ -23,9 +23,10 @@ body {
   font-family: "Lato Regular";
   /* stylelint-enable */
 }
+
 .orange {
   color: #ec5242;
-} 
+}
 
 .ash {
   color: #272a31;
@@ -50,8 +51,6 @@ li {
 .hide-items {
   display: none;
 }
-
-
 
 .bar {
   font-size: 2rem;
