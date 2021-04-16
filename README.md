@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Code Camp Nigeria
-Code Camp Nigeria is a web development course website, the project was built mainly for two screen sizes mobile and desktop. This capstone project is developed to help implement all that has been learnt in  the html-css module. From the [specification](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7) we are to create either a concert or web development course website.
+Code Camp Nigeria is a web development course website, the project was built mainly for two screen sizes for mobile and desktop. This capstone project is developed to help implement all that has been learnt in  the html-css module. From the [specification](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7), we are to create either a concert or web development course website with three pages.
 
 ![prolajumokeoni github io_html-css-capstone_](https://user-images.githubusercontent.com/69638013/114975824-d153de80-9e7c-11eb-946a-6e715dd69e42.png)
 
