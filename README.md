@@ -1,18 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# A web development course website
-This project is a html-css-capstone project, the project was built mainly for two screen sizes mobile and desktop. The capstone project is developed to help implement all that has been learnt in  the html-css module. From the [specification](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) we are to create a concert or web development course website.
+# Code Camp Nigeria
+Code Camp Nigeria is a web development course website, the project was built mainly for two screen sizes mobile and desktop. This capstone project is developed to help implement all that has been learnt in  the html-css module. From the [specification](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) we are to create either a concert or web development course website.
 
-## Screenshots
-### Main-page
-![127 0 0 1_5500_index html (2)](https://user-images.githubusercontent.com/69638013/114945387-22de7800-9e41-11eb-898a-7eaf135bd172.png)
-
-### About page
-![127 0 0 1_5500_about html](https://user-images.githubusercontent.com/69638013/114945497-5ae5bb00-9e41-11eb-8fc4-afa633d4c2a6.png)
-
-### Ticket-page
-![127 0 0 1_5500_ticket html](https://user-images.githubusercontent.com/69638013/114945337-0b9f8a80-9e41-11eb-8f29-bd98d878028b.png) 
-
+![prolajumokeoni github io_html-css-capstone_](https://user-images.githubusercontent.com/69638013/114975824-d153de80-9e7c-11eb-946a-6e715dd69e42.png)
 
 ## Built With
 
@@ -32,21 +23,25 @@ This project is a html-css-capstone project, the project was built mainly for tw
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- Go to https://github.com/prolajumokeoni/html-css-capstone
 
-### Prerequisites
-- Code editor eg; Visual Studio code
-- Github
+- Click on the code and copy the HTML code
+- Use terminal or github desktop to clone this repository on your local machine
+- Create a new branch and ake your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description of the development branch of the original project for a review
 
 ### Setup
-- clone the project from Github, so you can run it locally or set up a repository and start your own project
+- Fork, clone this repository from Github, so you can implement your changes
 
 ### Install
 - Visual studio code or any editor you prefer
+- Gitbash 
 - Download lato and cocogoose font
 - Download Bootstrap
 
 ### Usage
-- You can modify  or start developing your own project
+- Fork so you can edit this changes
 
 ### Deployment
 - Deploy to github pages
@@ -73,9 +68,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Design idea by  Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
