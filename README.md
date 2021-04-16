@@ -16,7 +16,7 @@ Code Camp Nigeria is a web development course website, the project was built mai
 [Live Demo Link](https://prolajumokeoni.github.io/html-css-capstone/) 
 
 ### Video Link
-[video Link](https://www.loom.com/share/0603e30b7c634fc5a160e84462d7cda9)
+[video Link](https://www.loom.com/share/4784e808592441a0ab76128b3deec5cb)
 
 ## Getting Started
 
