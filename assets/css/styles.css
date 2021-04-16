@@ -85,7 +85,7 @@ body {
 }
 
 .program-flex {
-  background-color: #272727;
+  background-color: #272a31;
   opacity: 0.7;
   width: 95%;
   margin: 5px auto;
@@ -226,7 +226,7 @@ footer {
 }
 
 .footer-main {
-  background-color: #272727;
+  background-color: #272a31;
   display: block;
   height: 200px;
   width: 100%;
@@ -333,20 +333,20 @@ footer {
 
   .header-links {
     text-decoration: none;
-    color: #3e3e3e;
+    color: #272a31;
     vertical-align: middle;
     padding: 0 10px;
   }
 
   .desktop-nav {
     display: flex;
-    background-color: #3e3e3e;
+    background-color: #272a31;
     justify-content: flex-end;
     padding-right: 150px;
   }
 
   .desktop-icons {
-    color: white;
+    color: #d3d3d3;
     padding: 0 10px;
     text-decoration: none;
   }
@@ -435,7 +435,7 @@ footer {
   }
 
   .footer-main {
-    background-color: #272727;
+    background-color: #272a31;
     display: block;
     height: 200px;
   }
@@ -471,7 +471,7 @@ footer {
   }
 
   .footer-bottom {
-    background-color: white;
+    background-color: #d3d3d3;
     height: 70px;
   }
 

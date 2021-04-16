@@ -49,7 +49,7 @@ header {
 }
 
 .footer-main {
-  background-color: #272727;
+  background-color: #272a31;
   display: block;
   height: 200px;
   width: 100%;
@@ -162,20 +162,20 @@ header {
 
   .header-links {
     text-decoration: none;
-    color: #3e3e3e;
+    color: #272a31;
     vertical-align: middle;
     padding: 0 10px;
   }
 
   .desktop-nav {
     display: flex;
-    background-color: #3e3e3e;
+    background-color: #272a31;
     justify-content: flex-end;
     padding-right: 150px;
   }
 
   .desktop-icons {
-    color: white;
+    color: #d3d3d3;
     padding: 0 10px;
     text-decoration: none;
   }
@@ -192,7 +192,7 @@ header {
     width: 70%;
     margin: 0 auto;
     font-size: 1rem;
-    background-color: #f8f4f4;
+    background-color: #d3d3d3;
   }
 
   .bottom-display {
@@ -239,7 +239,7 @@ header {
   }
 
   .naija {
-    color: white;
+    color: #d3d3d3;
     padding-left: 5px;
     width: 60px;
     text-align: left;
@@ -247,7 +247,7 @@ header {
   }
 
   .background-footer {
-    background-color: #272727;
+    background-color: #272a31;
     color: #d3d3d3;
   }
 
