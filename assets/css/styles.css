@@ -27,14 +27,31 @@ body {
 .bar {
   font-size: 2rem;
   padding: 0 30px;
-  color: #272a31;
 }
 
 .hello-text {
-  color: #ec5242;
   font-size: 1.5rem;
 }
 
+.orange {
+  color: #ec5242;
+} 
+
+.ash {
+  color: #272a31;
+}
+
+.blue {
+  color: #d3d3d3;
+}
+
+.bg-blue {
+  background-color: #d3d3d3;
+}
+
+.bg-ash {
+  background-color: #272a31;
+}
 
 .code-text {
   background: -webkit-linear-gradient(#ec5242, #272a31);
@@ -51,16 +68,13 @@ body {
 }
 
 .article-text {
-  color: #272a31;
   font-size: 0.7rem;
   line-height: 2;
   padding: 10px;
-  border: 3px solid white;
-  background-color: #d3d3d3;
+  border: 3px solid #272a31;
 }
 
 .location-text {
-  color: #272a31;
   font-size: 1.5rem;
   /* stylelint-disable */
   font-family: "cocogoose";
@@ -157,10 +171,7 @@ body {
   width: 60%;
 }
 
-header,
-.desktop-nav,
-.bottom-display,
-.last-about,
+
 .grp-wrapper:nth-of-type(3),
 .grp-wrapper:nth-of-type(4),
 .grp-wrapper:nth-of-type(5),
@@ -236,9 +247,11 @@ footer {
   padding-top: 20px;
 }
 
+li {
+  list-style: none;
+}
 .footer-list {
   display: flex;
-  list-style: none;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 85%;
@@ -319,7 +332,6 @@ footer {
 
   .header-list {
     display: flex;
-    list-style: none;
     justify-content: flex-end;
     margin-top: 14px;
   }
@@ -335,7 +347,6 @@ footer {
   }
 
   .header-links {
-    text-decoration: none;
     color: #272a31;
     vertical-align: middle;
     padding: 0 10px;
@@ -351,11 +362,9 @@ footer {
   .desktop-icons {
     color: #d3d3d3;
     padding: 0 10px;
-    text-decoration: none;
   }
 
-  .box,
-  .bar {
+  .lego {
     display: none;
   }
 
@@ -449,7 +458,6 @@ footer {
 
   .footer-list {
     display: flex;
-    list-style: none;
     justify-content: space-between;
     width: 40%;
     margin: 0 auto;

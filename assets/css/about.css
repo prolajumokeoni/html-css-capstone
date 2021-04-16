@@ -28,6 +28,7 @@ body {
   font-size: 1.5rem;
   text-align: center;
 }
+
 .code-text,
 .ccn-text {
   text-align: center;
@@ -36,7 +37,6 @@ body {
   /* stylelint-enable */
 }
 
-
 .text-wrapper {
   margin: 20px auto;
   width: 80%;
@@ -44,7 +44,7 @@ body {
 
 .orange {
   color: #ec5242;
-} 
+}
 
 .ash {
   color: #272a31;
@@ -59,7 +59,7 @@ body {
 }
 
 .bg-ash {
-  background-color: #272727;
+  background-color: #272a31;
 }
 
 .article-text {
@@ -86,7 +86,6 @@ body {
   text-align: center;
   margin-bottom: 0;
 }
-
 
 .underline-small {
   display: block;
@@ -205,9 +204,11 @@ body {
 .footer-header {
   padding-top: 20px;
 }
+
 li {
   list-style: none;
 }
+
 .footer-list {
   display: flex;
   justify-content: space-around;
@@ -267,7 +268,6 @@ li {
   display: none;
 }
 
-
 @media (min-width: 768px) {
   .ccn {
     width: 55px;
@@ -307,7 +307,7 @@ li {
     vertical-align: middle;
     padding: 0 10px;
   }
-  
+
   .desktop-nav {
     display: flex;
     justify-content: flex-end;
@@ -363,12 +363,21 @@ li {
   .last-about {
     display: none;
   }
-  
-  .ccn-logo1 {
-    width: 250px;
-  }
+
   .last-footer {
-    width: 300px;
+    width: 100%;
+    background-color: #272a31;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ccn-text {
+    color: #d3d3d3;
+    padding-left: 10px;
+  }
+  
+  .last-fabout {
+    color: #d3d3d3;
   }
 }
 
