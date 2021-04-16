@@ -330,6 +330,7 @@ footer {
     align-items: center;
     padding-left: 50px;
   }
+
   .lego {
     display: none;
   }
@@ -508,14 +509,17 @@ footer {
 .times-icon {
   display: none;
 }
+
 .times-icon i {
- font-size: 1.5rem;
+  font-size: 1.5rem;
 }
+
 .ccn-mobile {
   width: 2rem;
 }
+
 .ccn-text-mobile {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .main-header.visible {

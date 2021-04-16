@@ -163,7 +163,7 @@ header {
   .lego {
     display: none;
   }
-  
+
   .header-links {
     text-decoration: none;
     color: #272a31;
@@ -269,14 +269,17 @@ header {
 .times-icon {
   display: none;
 }
+
 .times-icon i {
- font-size: 1.5rem;
+  font-size: 1.5rem;
 }
+
 .ccn-mobile {
   width: 2rem;
 }
+
 .ccn-text-mobile {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .main-header.visible {
