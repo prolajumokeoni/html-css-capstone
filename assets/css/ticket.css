@@ -1,0 +1,304 @@
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #d3d3d3;
+  /* stylelint-disable */
+  font-family: "Lato Regular";
+  /* stylelint-enable */
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.ash {
+  color: #272a31;
+}
+
+.blue {
+  color: #d3d3d3;
+}
+
+.bg-blue {
+  background-color: #d3d3d3;
+}
+
+.bg-ash {
+  background-color: #272a31;
+}
+
+li {
+  list-style: none;
+}
+
+.hide-items {
+  display: none;
+}
+
+.bar {
+  font-size: 2rem;
+  padding: 0 30px;
+  color: #272a31;
+}
+
+.border-mix {
+  border: 5px dashed firebrick;
+  background:
+    linear-gradient(to top, rgb(38, 22, 128), 5px, transparent 5px),
+    linear-gradient(to right, rgb(38, 22, 128), 5px, transparent 5px),
+    linear-gradient(to bottom, rgb(38, 22, 128), 5px, transparent 5px),
+    linear-gradient(to left, rgb(38, 22, 128), 5px, transparent 5px);
+  background-origin: border-box;
+}
+
+.footer-main {
+  background-color: #272a31;
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-header {
+  padding-top: 20px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 85%;
+}
+
+.flex-f {
+  padding: 10px;
+}
+
+.mozilla {
+  font-weight: bolder;
+}
+
+.google {
+  font-weight: lighter;
+}
+
+.naver {
+  font-weight: bolder;
+}
+
+.airnb {
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.last-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: 0.7rem;
+  padding-left: 30px;
+}
+
+.ccn-logo1 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footer-ccn {
+  width: 60px;
+  height: 60px;
+}
+
+.last-fabout {
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .ccn {
+    width: 55px;
+    height: 45px;
+    border-radius: 80px;
+    padding-right: 5px;
+  }
+
+  .main-header {
+    padding-right: 150px;
+    height: 100%;
+    border-bottom: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14px;
+  }
+
+  .ccn-logo {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  .lego {
+    display: none;
+  }
+
+  .header-links {
+    vertical-align: middle;
+    padding: 0 10px;
+  }
+
+  .desktop-nav {
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+
+  .desktop-icons {
+    color: #d3d3d3;
+    padding: 0 10px;
+    text-decoration: none;
+  }
+
+  .code-text {
+    font-size: 3rem;
+  }
+
+  .article-text {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: #d3d3d3;
+  }
+
+  .bottom-display {
+    display: block;
+    display: inline;
+  }
+
+  .location-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    padding-top: 30px;
+  }
+
+  .ccn-about {
+    width: 50%;
+  }
+
+  .graduate-program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .background-laptop {
+    margin: 10px 10px;
+  }
+
+  .blue-img,
+  .orange-img {
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .last-about {
+    display: block;
+    text-align: left;
+  }
+
+  .naija {
+    color: #d3d3d3;
+    padding-left: 5px;
+    width: 60px;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .background-footer {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  .last-footer {
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+  }
+}
+
+.times-icon {
+  display: none;
+}
+
+.times-icon i {
+  font-size: 1.5rem;
+}
+
+.ccn-mobile {
+  width: 2rem;
+}
+
+.ccn-text-mobile {
+  font-size: 0.7rem;
+}
+
+.main-header.visible {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  background-color: #d3d3d3;
+  z-index: 9999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-header.visible .ccn-logo {
+  display: none;
+}
+
+.main-header.visible .times-icon {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}

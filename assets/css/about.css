@@ -1,0 +1,428 @@
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/cocogoose/Cocogoose_trial.otf);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #d3d3d3;
+  /* stylelint-disable */
+  font-family: "Lato Regular";
+  /* stylelint-enable */
+}
+
+.bar {
+  font-size: 2rem;
+  padding: 0 30px;
+}
+
+.hello-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.code-text,
+.ccn-text {
+  text-align: center;
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
+}
+
+.text-wrapper {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.ash {
+  color: #272a31;
+}
+
+.blue {
+  color: #d3d3d3;
+}
+
+.bg-blue {
+  background-color: #d3d3d3;
+}
+
+.bg-ash {
+  background-color: #272a31;
+}
+
+.article-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid #272a31;
+  text-align: center;
+}
+
+.location-text {
+  /* stylelint-disable */
+  font-family: "cocogoose";
+  /* stylelint-enable */
+  font-size: 0.5rem;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.bottom-text2,
+.bottom-text {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  color: #272a31;
+}
+
+.underline-small {
+  display: block;
+  position: relative;
+}
+
+.underline-small::after {
+  content: '';
+  height: 2px;
+  width: 10%;
+  background-color: #ec5242;
+  position: absolute;
+  left: 45%;
+  bottom: -5px;
+}
+
+.about-logo {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ccn-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 50px;
+  border: 1px solid #272a31;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+.ccn-width {
+  width: 160px;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.small-date {
+  font-size: 0.4rem;
+  margin-bottom: 20px;
+  border-top: 1px solid #272a31;
+  border-bottom: 1px solid #272a31;
+  position: absolute;
+  width: 120px;
+  left: 10px;
+  top: 42px;
+}
+
+.design-logo {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+}
+
+.graduate-text {
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.graduuate-p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.background-laptop {
+  height: 150px;
+  width: 300px;
+  background-size: 100% 100%;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.orange-img {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(194, 9, 9, 0.575),
+      rgba(184, 39, 39, 0.507)
+    ),
+    url("../images/orange-girl.png");
+}
+
+.blue-img {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(194, 9, 9, 0.575),
+      rgba(189, 8, 8, 0.932)
+    ),
+    url("../images/bluegirl.png");
+}
+
+.blue-img,
+.orange-img {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.footer-main {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-header {
+  padding-top: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 85%;
+}
+
+.flex-f {
+  padding: 10px;
+}
+
+.mozilla {
+  font-weight: bolder;
+}
+
+.google {
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.naver {
+  font-weight: bolder;
+}
+
+.airnb {
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.last-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: 0.7rem;
+  padding-left: 30px;
+}
+
+.ccn-logo1 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footer-ccn {
+  width: 60px;
+  height: 60px;
+}
+
+.hide-items {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .ccn {
+    width: 55px;
+    height: 45px;
+    border-radius: 80px;
+    padding-right: 5px;
+  }
+
+  .main-header {
+    padding-right: 150px;
+    height: 100%;
+    border-bottom: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14px;
+  }
+
+  .ccn-logo {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  .naija {
+    color: #d3d3d3;
+    padding-left: 10px;
+  }
+
+  .lego {
+    display: none;
+  }
+
+  .header-links {
+    vertical-align: middle;
+    padding: 0 10px;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+
+  .desktop-icons {
+    padding: 0 10px;
+  }
+
+  .code-text {
+    font-size: 3rem;
+  }
+
+  .article-text {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .bottom-display {
+    display: block;
+    display: inline;
+  }
+
+  .location-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+  }
+
+  .ccn-about {
+    width: 50%;
+  }
+
+  .graduate-program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .background-laptop {
+    margin: 10px 10px;
+  }
+
+  .blue-img,
+  .orange-img {
+    width: 350px;
+  }
+
+  .last-about {
+    display: none;
+  }
+
+  .last-footer {
+    width: 100%;
+    background-color: #272a31;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ccn-text {
+    padding-left: 10px;
+  }
+
+  .last-fabout {
+    color: #d3d3d3;
+  }
+}
+
+.times-icon {
+  display: none;
+}
+
+.times-icon i {
+  font-size: 1.5rem;
+}
+
+.ccn-mobile {
+  width: 2rem;
+}
+
+.ccn-text-mobile {
+  font-size: 0.7rem;
+}
+
+.main-header.visible {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  background-color: #d3d3d3;
+  z-index: 9999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-header.visible .ccn-logo {
+  display: none;
+}
+
+.main-header.visible .times-icon {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
